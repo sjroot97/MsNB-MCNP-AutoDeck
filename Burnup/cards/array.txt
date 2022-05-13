@@ -1,0 +1,55 @@
+c      ---
+c      end control drums
+c      ---
+c
+c      ---
+c      detector cells (not representative of any actual geometry)
+c      ---
+69     SZ   82.0 0.5
+68     SZ   60.5 0.5
+67     SZ   41.0 0.5
+66     SZ   20.5 0.5
+65     SO        0.5
+64     SZ  -20.5 0.5
+63     SZ  -41.0 0.5
+62     SZ  -60.5 0.5
+61     SZ  -82.0 0.5
+c      ---
+c      end detector cells
+c      ---
+c
+c      ---
+c      heat exchanger array
+c      ---
+80     CZ   10.0   $Big Tube inner
+81     CZ   10.5   $Big Tube Outer
+82     CZ    4.0   $Small Tube Inner
+83     CZ    4.5   $Small Tube Outer
+c      ---
+84     PY   12.0 $Side 1
+85  5  PY   12.0 $Side 2
+86  6  PY   12.0 $Side 3
+87  7  PY   12.0 $Side 4
+88  8  PY   12.0 $Side 5
+89  9  PY   12.0 $Side 6
+c      ---
+c      end heat exchanger array
+c      ---
+c
+c      ---
+c      moderating array
+c      ---
+90     CZ   0.1 $Graphite Pin outer
+94     PY   1.0 $Side 1
+95  5  PY   1.0 $Side 2
+96  6  PY   1.0 $Side 3
+97  7  PY   1.0 $Side 4
+98  8  PY   1.0 $Side 5
+99  9  PY   1.0 $Side 6
+c      ---
+c      end moderating array
+c      ---
+c
+c      -----------
+c      end surface cards
+c      -----------

@@ -1,0 +1,30 @@
+c      -----------
+c      surface cards
+c      -----------
+c      ---
+c      reactor body
+c      ---
+10     CZ   24.0     $Core Pipe Inner
+11     CZ   25.0     $Core Pipe Outer
+12     CZ   69.0     $Annulus Pipe Inner
+13     CZ   70.0     $Annulus Pipe Outer
+14     CZ   74.0     $Shroud Inner
+15     CZ   75.0     $Shroud Outer
+c      ---
+29     PZ  130.0    $Shroud Top
+28     PZ  129.0    $Shroud Lid Bottom
+27     PZ  123.0    $Spoke Bottom
+26     PZ  122.0    $Heat Exchanger Top
+25     PZ   90.0    $Heat Exchanger Bottom
+24     PZ   89.0    $Outlet Plenum Top
+23     PZ   83.0    $Core Top
+22     PZ  -83.0    $Core Bottom
+21     PZ  -89.0    $Shroud Tray Top
+20     PZ  -90.0    $Shroud Bottom
+c      ---
+c      end reactor body
+c      ---
+c
+c      ---
+c      control drums
+c      ---

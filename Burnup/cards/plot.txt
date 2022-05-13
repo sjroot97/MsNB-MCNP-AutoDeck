@@ -1,0 +1,4 @@
+MCNP6 IP i=MsNB.inp
+del comout
+del outp
+del srctp
